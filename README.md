@@ -10,3 +10,5 @@
 
 1. 滚动优化，将updatePositions方法里面的获取document.body.scrollTop放到循环外。
 2. 调整pizza大小优化，将changePizzaSizes中获取pizza大小的方法简化。
+3. 使用getElementById和getElementsByClassName代替querySelector和querySelectorAll
+4. 调整pizza的数量，根据屏幕高度动态计算pizza数量
